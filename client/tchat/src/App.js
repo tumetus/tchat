@@ -11,7 +11,7 @@ import SocketHandler from './SocketHandler';
 class App extends Component {
   componentWillMount() {
     SocketHandler.initialize({
-      host: 'https://example.com'
+      host: 'https://tume-chat.herokuapp.com/'
     });
   }
 
