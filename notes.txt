@@ -1,0 +1,3 @@
+Deploy to heroku
+git subtree push --prefix server origin heroku-server-deploy
+- note: heroku requires port to be defined with "process.env.PORT" in order to work
